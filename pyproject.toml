@@ -1,0 +1,17 @@
+[project]
+name = "fh-heroicons"
+version = "0.1.0"
+description = "FastHTML package for Heroicons"
+readme = "README.md"
+authors = [
+    { name = "Marius", email = "mariusvach@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "httpx>=0.28.0",
+    "python-fasthtml>=0.10.1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
