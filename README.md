@@ -22,7 +22,7 @@ pip install git+https://github.com/vacmar01/fh-heroicons.git
 ```python
 from fh_heroicons import Heroicon
 
-Heroicon("academic-cap", style="text: red")
+Heroicon("academic-cap", style="color: red")
 ```
 
 You can pass any valid heroicon icon name to `Heroicon`. A full searchable list of icons can be found [here](https://heroicons.com/).
