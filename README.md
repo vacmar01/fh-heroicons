@@ -1,6 +1,6 @@
 # fh-heroicons
 
-Any use of the code retrieved from [lucide.dev](https://heroicons.com/) is subject to the terms of the Heroicons license, found [here](https://github.com/tailwindlabs/heroicons/blob/master/LICENSE).
+Any use of the code retrieved from [heroicons.com](https://heroicons.com/) is subject to the terms of the Heroicons license, found [here](https://github.com/tailwindlabs/heroicons/blob/master/LICENSE).
 
 -----
 
