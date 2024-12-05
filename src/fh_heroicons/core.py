@@ -14,14 +14,6 @@ def path_d(svg_str: str):
     assert len(finds) == 1
     return finds[0]
 
-def get_icon_data(icon_str: str):
-    p_url = icon_url(icon_str)
-    r = httpx.get(p_url)
-    if r.status_code == 200:
-        return path_d(r.text)
-    else: 
-        raise HTTPError(f"Getting icon data failed with status code: {r.status_code}")
-
 cwd = Path.cwd()
 
 FOLDER_NAME = cwd/".fh-heroicons"
