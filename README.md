@@ -27,10 +27,14 @@ Heroicon("academic-cap", style="color: red")
 
 You can pass any valid heroicon icon name to `Heroicon`. A full searchable list of icons can be found [here](https://heroicons.com/).
 
+You can also specify which variant of the icons (`outline` or `solid`, default to `outline`) you want by adding the `variant` attribute to `Heroicon`. 
+
+```python
+Heroicon("academic-cap", variant="solid")
+```
+
 ## Caveat
 This is very much wip as well as my first python library ever. So please treat it gently. 
-
-Currently only the `outline` versions of the icons are supported. Support for the `solid` variants coming soon. 
 
 ## License
 
