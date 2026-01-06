@@ -14,7 +14,7 @@ This is a small library that let's you use `heroicons` as FastHTML `ft` componen
 ## Installation
 
 ```bash
-pip install git+https://github.com/vacmar01/fh-heroicons.git
+pip install fh-heroicons
 ```
 
 ## Usage
